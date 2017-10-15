@@ -62,6 +62,7 @@ public class ConfigTranca extends AppCompatActivity {
                 putRequest("senha", novaSenha);
                 Toast.makeText(ConfigTranca.this, "Senha atualizada", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(ConfigTranca.this, MainClass.class));
+                finish();
             }else{
                 Toast.makeText(ConfigTranca.this, "Senha só pode conter: 1 2 3 4 5 6 7 8 9 * # 0 A B C D", Toast.LENGTH_LONG).show();
             }
