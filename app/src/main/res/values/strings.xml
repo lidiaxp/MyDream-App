@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyDream</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_class">MainClass</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_config_tranca">ConfigTranca</string>
+    <string name="title_activity_config_alarme">ConfigAlarme</string>
+</resources>
