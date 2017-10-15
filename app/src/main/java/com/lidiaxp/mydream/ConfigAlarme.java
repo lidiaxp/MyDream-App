@@ -104,6 +104,7 @@ public class ConfigAlarme extends AppCompatActivity {
 
         Toast.makeText(ConfigAlarme.this, "Alarme Definido", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(this, MainClass.class));
+        finish();
     }
 
     public void toggle(View view) {
