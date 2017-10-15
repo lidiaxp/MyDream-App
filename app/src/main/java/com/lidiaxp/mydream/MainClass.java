@@ -353,10 +353,12 @@ public class MainClass extends AppCompatActivity {
 
     public void mudaTranca(View view){
         startActivity(new Intent(this, ConfigTranca.class));
+        finish();
     }
 
     public void mudaAlarme(View view){
         startActivity(new Intent(this, ConfigAlarme.class));
+        finish();
     }
 
     @Override
