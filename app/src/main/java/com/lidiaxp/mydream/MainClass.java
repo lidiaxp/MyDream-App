@@ -257,6 +257,7 @@ public class MainClass extends AppCompatActivity {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(MainClass.this, "Sem conexão", Toast.LENGTH_SHORT).show();
                     }
                 }
         ) {
